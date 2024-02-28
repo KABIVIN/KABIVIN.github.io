@@ -1,0 +1,701 @@
+body{
+    background-color: #FFFDD0;
+    padding-bottom: 00px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+/* .gallery{
+    display: inline-block;
+    border: 1px solid;
+    margin: 5px;
+    background-color: rgb(33, 32, 32);
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    background-color: gray;
+} 
+
+h1{
+    text-align: center;
+} */
+
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: beige;
+    margin: 0;
+    margin-top: 0;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+    text-decoration: dashed;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 20px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.footer {
+    display: block;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    border: 2px solid;
+    width: 100%;
+    background-color: beige;
+    color: black;
+    border: 2px solid orangered;
+    text-align: center;
+    margin: 3px;
+    margin-top: 2;
+  }
+
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.fa-instagram{
+    color: darkorange;
+
+}
+
+.fa-facebook{
+    color: darkblue;
+}
+
+
+.fa-facebook:hover{
+    color: black;
+}
+
+.fa-instagram:hover{
+    color: purple;
+}
+
+ .cmprBtn{
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid black;  
+      color: black; 
+      background-color: white; 
+      border-radius: 30px; 
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+      margin-right: -400px;
+}
+
+.cmprBtn:hover{
+    background-color: black; 
+      border-color: black; 
+      color: white; 
+} 
+
+.disclaimer {
+    background-color: black; /* Background color for the disclaimer */
+    color: white; /* Text color for the disclaimer */
+    padding: 7px; /* Padding for the disclaimer */
+    margin-top: 0px; /* Margin to separate it from the footer */
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#vinalbsec{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.an2022{
+    font-size: 2em;
+    text-align: center;
+}
+
+.vn{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.CHARDONNAY{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descr{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+.alc{
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.content{
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+}
+
+#merlot{
+    border-radius: 30px;
+    float: right;
+}
+
+.an2022l{
+    font-size: 2em;
+    text-align: center;
+}
+
+.vn1{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.MERLOT{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descr1{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+.alc1{
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.content1{
+    border-radius: 10px;
+}
+
+#pinot{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+.an2022i{
+    font-size: 2em;
+    text-align: center;
+}
+
+.vn2{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.PINOT-GRIS{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descr2{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+    text-decoration: none;
+}
+
+.alc2{
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.content2{
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+}
+
+#sav{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.an2022o{
+    font-size: 2em;
+    text-align: center;
+}
+
+.vn3{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.SAUVIGNON{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descr3{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+.alc3{
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.content3{
+    border-radius: 10px;
+}
+
+#roz{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+.an2022u{
+    font-size: 2em;
+    text-align: center;
+}
+
+.vn4{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.MR1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descr4{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+.alc4{
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.content4{
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 412px) {
+ 
+    body{
+        background-color: #FFFDD0;
+        padding-bottom: 00px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    
+    /* .gallery{
+        display: inline-block;
+        border: 1px solid;
+        margin: 5px;
+        background-color: rgb(33, 32, 32);
+    }
+    .gallery .description{
+        padding: 10px;
+        text-align: center;
+    }
+    .gallery:hover{
+        background-color: gray;
+    } 
+    
+    h1{
+        text-align: center;
+    } */
+    
+    header{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color: beige;
+        margin: 0;
+        margin-top: 0;
+    }
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
+    nav li{
+        display: inline-block;
+        list-style: none;
+        padding: 0px 20px;
+        text-decoration: dashed;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    nav li:hover{
+        background-color: white;
+        display: inline-block;
+        list-style: none;
+        padding: 20px 20px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+    .footer {
+        display: block;
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        border: 2px solid;
+        width: 100%;
+        background-color: beige;
+        color: black;
+        border: 2px solid orangered;
+        text-align: center;
+        margin: 3px;
+        margin-top: 2;
+      }
+    
+    hr{
+        width: 100%;
+        height: 2px;
+        background-color: orangered;
+        margin-top: 0;
+    }
+    
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+    .fa-instagram{
+        color: darkorange;
+    
+    }
+    
+    .fa-facebook{
+        color: darkblue;
+    }
+    
+    
+    .fa-facebook:hover{
+        color: black;
+    }
+    
+    .fa-instagram:hover{
+        color: purple;
+    }
+    
+     .cmprBtn{
+        display: inline-block;
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          text-decoration: none;
+          cursor: pointer;
+          border: 2px solid black;  
+          color: black; 
+          background-color: white; 
+          border-radius: 30px; 
+          transition: background-color 0.3s, color 0.3s, border 0.3s;
+          margin-right: -400px;
+    }
+    
+    .cmprBtn:hover{
+        background-color: black; 
+          border-color: black; 
+          color: white; 
+    } 
+    
+    .disclaimer {
+        background-color: black; /* Background color for the disclaimer */
+        color: white; /* Text color for the disclaimer */
+        padding: 7px; /* Padding for the disclaimer */
+        margin-top: 0px; /* Margin to separate it from the footer */
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #vinalbsec{
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 10px;
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    .an2022{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .vn{
+        color: orange;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .CHARDONNAY{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .descr{
+        text-align: center;
+        font-size: 1.8em;
+        display: block;
+    }
+    
+    .alc{
+        text-align: left;
+        font-size: 1.3em;
+    }
+    
+    .content{
+        background-color: rgb(233, 230, 230);
+        border-radius: 10px;
+    }
+    
+    #merlot{
+        border-radius: 30px;
+        float: right;
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    .an2022l{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .vn1{
+        color: orange;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .MERLOT{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .descr1{
+        text-align: center;
+        font-size: 1.8em;
+        display: block;
+    }
+    
+    .alc1{
+        text-align: right;
+        font-size: 1.3em;
+    }
+    
+    .content1{
+        border-radius: 10px;
+    }
+    
+    #pinot{
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 10px;
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    
+    .an2022i{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .vn2{
+        color: orange;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .PINOT-GRIS{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .descr2{
+        text-align: center;
+        font-size: 1.8em;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .alc2{
+        text-align: left;
+        font-size: 1.3em;
+    }
+    
+    .content2{
+        background-color: rgb(233, 230, 230);
+        border-radius: 10px;
+    }
+    
+    #sav{
+        float: right;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 10px;
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    .an2022o{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .vn3{
+        color: orange;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .SAUVIGNON{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .descr3{
+        text-align: center;
+        font-size: 1.8em;
+        display: block;
+    }
+    
+    .alc3{
+        text-align: right;
+        font-size: 1.3em;
+    }
+    
+    .content3{
+        border-radius: 10px;
+    }
+    
+    #roz{
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 10px;
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    
+    .an2022u{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .vn4{
+        color: orange;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .MR1{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .descr4{
+        text-align: center;
+        font-size: 1.8em;
+        display: block;
+    }
+    
+    .alc4{
+        text-align: left;
+        font-size: 1.3em;
+    }
+    
+    .content4{
+        background-color: rgb(233, 230, 230);
+        border-radius: 10px;
+    }
+
+}

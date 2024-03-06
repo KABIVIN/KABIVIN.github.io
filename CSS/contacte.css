@@ -22,7 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10%;
+    padding: 5px 11%;
     background-color: beige;
     margin-top: 0;
     border-bottom: 2px solid orangered;
@@ -129,7 +129,10 @@ a{
     font-size: 20px;
 }
 
-
+.kabivin{
+    margin-left: -90%;
+    font-size: 30px;
+}
 
 @media only screen and (max-width: 412px) {
 

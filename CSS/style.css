@@ -28,13 +28,6 @@ header{
     margin-top: 0;
 }
 
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-}
 nav li{
     display: inline-block;
     list-style: none;
@@ -205,6 +198,12 @@ hr{
     margin-top: -4%;
 }
 
+.lgh{
+    margin-top: 7px;
+}
+
+
+
 @media screen and (max-width: 412px) {
 
     *{
@@ -212,6 +211,7 @@ hr{
         padding: 0;
         padding-bottom: 0px;
         box-sizing: border-box;
+        max-width: 412px;
     }
     
     body {
@@ -219,16 +219,12 @@ hr{
         padding-bottom: 200px;
         justify-content: center;
         align-items: center;
-        /* background-image: url(../imagini/kabivin-bg\ \(1\).jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed; */
+        background-color: burlywood;
+        max-width: 412;
     }
     
     .section-1{
-       margin-top: 0;
+        margin-top: 0;
     }
     
     header{
@@ -237,18 +233,11 @@ hr{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px 10%;
+        padding: 30px 0%;
         background-color: beige;
         margin-top: 0;
     }
     
-    .logo{
-        font-size: 30px;
-        font-weight: bold;
-        color: #fff;
-        letter-spacing: 1.5px;
-        cursor: pointer;
-    }
     nav li{
         display: inline-block;
         list-style: none;
@@ -274,7 +263,7 @@ hr{
         bottom: 0;
         border: 1px solid orangered;
         width: 100%;
-        height: 17%;
+        height: 20%;
         background-color: beige;
         text-align: center;
       }
@@ -313,6 +302,7 @@ hr{
         width: 100%;
         text-align: center;
         bottom: 0;
+        margin-left: 0;
     }
     
     
@@ -321,7 +311,7 @@ hr{
         text-decoration: none;
     }
     
-  
+    
     
     #hr{
         margin: 10px;
@@ -369,11 +359,11 @@ hr{
       align-self: center;
       text-align: center;
       cursor: pointer;
-      width: 74%;
+      width: 100%;
+      width: 300px;
+      margin-left: 2%;
       margin-bottom: 0px;
-      margin-top: 5%;
-      margin-left: 15%;
-        
+        margin-top: 5%;
     }
     
     .btyn:hover{
@@ -397,8 +387,8 @@ hr{
     }
     
     .slideshow-container {
-        max-width: 500px;
-        width: 500px;
+        max-width: 400px;
+        width: 400px;
         position: relative;
         margin: auto;
         bottom: 0;
@@ -415,10 +405,14 @@ hr{
         height: 3px;
         background-color: orangered;
     }
-
-    .imgh{
-        max-width: 407px;
-        width: 407px;
+    
+    .kabivin{
+        font-size: 32px;
+        margin-top: -4%;
+    }
+    
+    .lgh{
+        margin-top: 7px;
     }
   }
 

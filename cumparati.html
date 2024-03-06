@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KABIVIN</title>
+<link rel="stylesheet" href="../CSS/cumparati.css">
+<link rel="icon" type="imagini/jpeg" href="../imagini/Logo Kabivin fundal.png">
+<script src="https://kit.fontawesome.com/db27cc50b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <a href="products.html">
+        <button id="returnBtn">Return</button>
+          </a> <br><br><br>
+
+          <div class="container">
+            <h1>Shopping Cart</h1>
+            <div class="products">
+              <div class="product">
+                <img src="../imagini/kabivin vin alb sec chardonnay-select.jpg" alt="Product 1">
+                <span class="name">Chardonnay</span>
+                <span class="price">$10</span>
+                <button class="add-to-cart" data-price="10">Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="../imagini/merlot-rose-select-roz.jpg" alt="Product 2">
+                <span class="name">Merlot</span>
+                <span class="price">$20</span>
+                <button class="add-to-cart" data-price="20">Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="../imagini/merlot-select.jpg" alt="Product 3">
+                <span class="name">Merlot</span>
+                <span class="price">$15</span>
+                <button class="add-to-cart" data-price="15">Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="../imagini/pinot-gris-select.jpg" alt="Product 4">
+                <span class="name">Pinot-Gris</span>
+                <span class="price">$25</span>
+                <button class="add-to-cart" data-price="25">Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="../imagini/sauvignon-blanc-select.jpg" alt="Product 5">
+                <span class="name">Sauvignon-Blanc</span>
+                <span class="price">$30</span>
+                <button class="add-to-cart" data-price="30">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cart">
+              <h2>Cart</h2>
+              <ul class="cart-items">
+              </ul>
+              <p>Total: $<span class="total">0</span></p>
+              <button class="checkout">Checkout</button>
+            </div>
+          </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const addToCartButtons = document.querySelectorAll(".add-to-cart");
+  const cartItemsList = document.querySelector(".cart-items");
+  const totalDisplay = document.querySelector(".total");
+  
+  let totalPrice = 0;
+
+  addToCartButtons.forEach(button => {
+    button.addEventListener("click", function() {
+      const product = button.parentElement;
+      const productName = product.querySelector(".name").textContent;
+      const productPrice = parseFloat(product.querySelector(".price").textContent.slice(1));
+
+      totalPrice += productPrice;
+      totalDisplay.textContent = totalPrice.toFixed(2);
+
+      const listItem = document.createElement("li");
+      listItem.textContent = `${productName} - $${productPrice.toFixed(2)}`;
+      
+      const removeButton = document.createElement("button");
+      removeButton.textContent = "Remove";
+      removeButton.classList.add("remove-from-cart");
+      removeButton.addEventListener("click", function() {
+        totalPrice -= productPrice;
+        totalDisplay.textContent = totalPrice.toFixed(2);
+        listItem.remove();
+      });
+      
+      listItem.appendChild(removeButton);
+      cartItemsList.appendChild(listItem);
+    });
+  });
+
+  document.querySelector(".checkout").addEventListener("click", function() {
+    alert(`Total amount to pay: $${totalPrice.toFixed(2)}`);
+    // You can add further functionality here, like sending the cart data to a server for processing.
+  });
+});
+
+</script>
+</body>
+</html>

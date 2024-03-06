@@ -23,17 +23,12 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: beige;
-    margin: 1px solid orangered;
     margin-top: 0;
+    padding-top: 3%;
 }
 
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-}
+
+
 nav li{
     display: inline-block;
     list-style: none;
@@ -142,6 +137,10 @@ hr {
     background: orangered;
     border: none; 
     margin: 0px 0; 
+}
+
+.kabh{
+    margin-bottom: 9px;
 }
 
   @media only screen and (max-width: 412px) {

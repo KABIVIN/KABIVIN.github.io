@@ -110,7 +110,7 @@ a{
 
 .disclaimer {
     background-color: black;
-    color: #333;
+    color: white;
     padding: 7px;
     margin-top: 0px;
     position: absolute;
@@ -118,6 +118,7 @@ a{
     text-align: center;
     align-items: baseline;
     align-self: center;
+    margin-left: -1%;
 }
 
 #foo{

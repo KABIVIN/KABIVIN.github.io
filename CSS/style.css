@@ -202,7 +202,34 @@ hr{
     margin-top: 7px;
 }
 
+.dropdown{
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+}
 
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.dropdown .content{
+    display: none;
+    background-color: gray;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: gainsboro;
+}
 
 @media screen and (max-width: 412px) {
 
@@ -225,6 +252,7 @@ hr{
     
     .section-1{
         margin-top: 0;
+        width: 100%;
     }
     
     header{

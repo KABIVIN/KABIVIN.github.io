@@ -42,7 +42,7 @@ nav li:hover{
 
 .footer {
     display: block;
-    position: sticky;
+    position: absolute;
     left: 0;
     bottom: 0;
     border: 2px solid;
@@ -62,6 +62,11 @@ hr{
     margin-top: 0;
 }
 
+.lgh{
+    margin-top: 13px;
+    margin-bottom: 1px;
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -70,6 +75,7 @@ a{
 
 .fa-instagram{
     color: darkorange;
+    display: inline;
 
 }
 
@@ -86,248 +92,38 @@ a{
     color: purple;
 }
 
- .cmprBtn{
-    display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      cursor: pointer;
-      border: 2px solid black;  
-      color: black; 
-      background-color: white; 
-      border-radius: 30px; 
-      transition: background-color 0.3s, color 0.3s, border 0.3s;
-      margin-right: -400px;
-}
 
-.cmprBtn:hover{
-    background-color: black; 
-      border-color: black; 
-      color: white; 
-} 
 
 .disclaimer {
-    background-color: black; /* Background color for the disclaimer */
-    color: white; /* Text color for the disclaimer */
-    padding: 7px; /* Padding for the disclaimer */
-    margin-top: 0px; /* Margin to separate it from the footer */
+    background-color: black; 
+    color: white; 
+    padding: 7px; 
+    margin-top: 0px; 
     position: absolute;
     width: 100%;
     text-align: center;
 }
 
-.lgh{
-    margin-top: 10px;
-    margin-bottom: 1px;
-}
-
-.kabivin{
-    font-size: 31px;
-    margin-left: -60%;
-}
-
-#vinalbsec{
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+.hjo{
     border-radius: 30px;
-    margin-top: 10px;
+    cursor: pointer;
 }
 
-.an2022{
-    font-size: 2em;
-    text-align: center;
-}
-
-.vn{
-    color: orange;
-    text-align: center;
-    font-size: 15px;
-}
-
-.CHARDONNAY{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.descr{
-    text-align: center;
-    font-size: 1.8em;
-    display: block;
-}
-
-.alc{
-    text-align: left;
-    font-size: 1.3em;
-}
-
-.content{
-    background-color: rgb(233, 230, 230);
-    border-radius: 10px;
-}
-
-#merlot{
+.hju{
     border-radius: 30px;
-    float: right;
+    cursor: pointer;
 }
 
-.an2022l{
-    font-size: 2em;
-    text-align: center;
+.hjo:hover{
+    width: 50%;
 }
 
-.vn1{
-    color: orange;
-    text-align: center;
-    font-size: 15px;
+.hju:hover{
+    width: 50%;
 }
 
-.MERLOT{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.descr1{
-    text-align: center;
-    font-size: 1.8em;
-    display: block;
-}
-
-.alc1{
-    text-align: right;
-    font-size: 1.3em;
-}
-
-.content1{
-    border-radius: 10px;
-}
-
-#pinot{
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-
-
-.an2022i{
-    font-size: 2em;
-    text-align: center;
-}
-
-.vn2{
-    color: orange;
-    text-align: center;
-    font-size: 15px;
-}
-
-.PINOT-GRIS{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.descr2{
-    text-align: center;
-    font-size: 1.8em;
-    display: block;
-    text-decoration: none;
-}
-
-.alc2{
-    text-align: left;
-    font-size: 1.3em;
-}
-
-.content2{
-    background-color: rgb(233, 230, 230);
-    border-radius: 10px;
-}
-
-#sav{
-    float: right;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-
-.an2022o{
-    font-size: 2em;
-    text-align: center;
-}
-
-.vn3{
-    color: orange;
-    text-align: center;
-    font-size: 15px;
-}
-
-.SAUVIGNON{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.descr3{
-    text-align: center;
-    font-size: 1.8em;
-    display: block;
-}
-
-.alc3{
-    text-align: right;
-    font-size: 1.3em;
-}
-
-.content3{
-    border-radius: 10px;
-}
-
-#roz{
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-
-
-.an2022u{
-    font-size: 2em;
-    text-align: center;
-}
-
-.vn4{
-    color: orange;
-    text-align: center;
-    font-size: 15px;
-}
-
-.MR1{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.descr4{
-    text-align: center;
-    font-size: 1.8em;
-    display: block;
-}
-
-.alc4{
-    text-align: left;
-    font-size: 1.3em;
-}
-
-.content4{
-    background-color: rgb(233, 230, 230);
-    border-radius: 10px;
+.sl{
+    
 }
 
 @media only screen and (max-width: 412px) {

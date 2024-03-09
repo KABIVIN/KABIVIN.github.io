@@ -139,16 +139,12 @@ a{
 
     body{
         background-color: antiquewhite;
-        padding-bottom: 0px;
+        padding-bottom: 100px;
     }
     
     main{
         margin-left: 20px;
         margin-right: 20px;
-    }
-    
-    .klo{
-        width: 90px;
     }
 
     h1{
@@ -156,7 +152,7 @@ a{
     }
     
     header{
-        width: 480px;
+        width: 90%;
         height: 95px;
         display: flex;
         justify-content: space-between;
@@ -196,8 +192,8 @@ a{
         position: fixed;
         left: 0;
         bottom: 0;
-        border: 2px solid;
-        width: 67.4%;
+        border: 2px solid orangered;
+        width: 90%;
         height: 150px;
         background-color: beige;
         color: black;
@@ -240,4 +236,12 @@ a{
         color: purple;
     }
 
+    .kabivin{
+        margin-left: -20%;
+        font-size: 30px;
+    }
+
+    .lgh{
+
+    }
 }

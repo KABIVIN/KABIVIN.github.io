@@ -154,7 +154,7 @@ a{
 }
 
 @media only screen and (max-width: 412px) {
- 
+
     body{
         background-color: #FFFDD0;
         padding-bottom: 0px;
@@ -165,7 +165,7 @@ a{
     
     header{
         width: 100%;
-        height: 75px;
+        height: 95px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -173,14 +173,12 @@ a{
         background-color: beige;
         margin: 0;
         margin-top: 0;
-        padding-bottom: 5px;
-        padding-top: 30px;
     }
     
     nav li{
         display: inline-block;
         list-style: none;
-        padding: 20px 20px;
+        padding: 5px 5px;
         text-decoration: dashed;
         cursor: pointer;
         font-size: 20px;
@@ -204,8 +202,8 @@ a{
         left: 0;
         bottom: 0;
         border: 2px solid;
-        width: 150%;
-        height: 11%;
+        width: 100%;
+        height: 15%;
         padding-bottom: 18px;
         background-color: beige;
         color: black;
@@ -268,12 +266,12 @@ a{
     
     .hjo{
         cursor: pointer;
-        width: 300%;
+        width: 130%;
     }
     
     .hju{
         cursor: pointer;
-        width: 300%;
+        width: 130%;
     }
     
     .hjo:hover{
@@ -302,6 +300,7 @@ a{
         color: white;
         padding: 20px;
         text-align: center;
+        width: 90%;
       }
       
       .text-overlay h2 {
@@ -312,5 +311,4 @@ a{
         margin-left: -10%;
     }
     
-
 }

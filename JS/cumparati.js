@@ -1,49 +1,60 @@
-const cart = document.getElementById("cart");
-    const increaseBtn = document.getElementById("increaseBtn");
-    const decreaseBtn = document.getElementById("decreaseBtn");
-
-    increaseBtn.onclick = function () {
-        const item = cart.innerText;
-        cart.innerText = parseInt(item, 10) + 1;
+function toggleVisibility() {
+    var div = document.getElementById("myDiv");
+    if (div.style.display === "none") {
+        div.style.display = "block"; 
+    } else {
+        div.style.display = "none"; 
     }
+}
 
-    decreaseBtn.onclick = function () {
-        const item = cart.innerText;
-        cart.innerText = parseInt(item, 10) - 1 >= 0 ? parseInt(item, 10) - 1 : 0;
-    }
+document.addEventListener("DOMContentLoaded", function() {
+    const addToCartButtons = document.querySelectorAll(".add-to-cart");
+    const cartItemsList = document.querySelector(".cart-items");
+    const totalDisplay = document.querySelector(".total");
+    const checkoutButton = document.querySelector(".checkout");
+    const checkoutDiv = document.getElementById("checkoutDiv");
+    const closeCheckoutButton = document.getElementById("closeCheckout");
 
+    let totalPrice = 0;
 
-    let cartCount = 0;
-    let productPrice = 100; // Initial product price
-
-    document.getElementById('increaseBtn').addEventListener('click', function () {
-        cartCount++;
-        updateCartCount();
-        updateTotalPrice();
+    checkoutButton.addEventListener("click", function() {
+        alert(`Total amount to pay: MDL ${totalPrice.toFixed(2)}`);
     });
 
-    document.getElementById('decreaseBtn').addEventListener('click', function () {
-        if (cartCount > 0) {
-            cartCount--;
-            updateCartCount();
-            updateTotalPrice();
-        }
-    });
+    function addToCart(productName, productPrice) {
+        totalPrice += productPrice;
+        totalDisplay.textContent = totalPrice.toFixed(2);
 
-    document.querySelectorAll('.addToCartBtn').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-            cartCount++;
-            updateCartCount();
-            updateTotalPrice();
+        const listItem = document.createElement("li");
+        listItem.textContent = `${productName} - MDL ${productPrice.toFixed(2)}`;
+
+        const removeButton = document.createElement("button");
+        removeButton.textContent = "Remove";
+        removeButton.classList.add("remove-from-cart");
+        removeButton.addEventListener("click", function() {
+            totalPrice -= productPrice;
+            totalDisplay.textContent = totalPrice.toFixed(2);
+            listItem.remove();
+        });
+
+        listItem.appendChild(removeButton);
+        cartItemsList.appendChild(listItem);
+    }
+
+    addToCartButtons.forEach(button => {
+        button.addEventListener("click", function() {
+            const product = button.parentElement;
+            const productName = product.querySelector(".name").textContent;
+            const productPrice = parseFloat(product.querySelector(".price").textContent.replace("MDL", ""));
+            addToCart(productName, productPrice);
         });
     });
 
-    function updateCartCount() {
-        document.getElementById('cart').textContent = cartCount;
-    }
+    checkoutButton.addEventListener("click", function() {
+        checkoutDiv.style.display = "block";
+    });
 
-    function updateTotalPrice() {
-        const totalPrice = cartCount * productPrice;
-        document.getElementById('productPrice').textContent = totalPrice + ' lei';
-    } 
-
+    closeCheckoutButton.addEventListener("click", function() {
+        checkoutDiv.style.display = "none";
+    });
+});

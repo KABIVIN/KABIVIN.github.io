@@ -236,7 +236,7 @@ hr{
     *{
         margin: 0px;
         padding: 0;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         box-sizing: border-box;
         max-width: 412px;
     }
@@ -294,6 +294,7 @@ hr{
         height: 10%;
         background-color: beige;
         text-align: center;
+        overflow-y: hidden;
       }
     
     #foo{

@@ -4,6 +4,7 @@ body{
     margin-left: 0;
     padding-left: 0;
     margin-top: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -46,12 +47,12 @@ nav li:hover{
     left: 0;
     bottom: 0;
     border: 2px solid;
-    width: 100%;
+    width: 102%;
     background-color: beige;
     color: black;
     border: 2px solid orangered;
     text-align: center;
-    margin: 3px;
+    margin: 0px;
     margin-top: 2;
   }
 

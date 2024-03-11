@@ -479,6 +479,10 @@ hr{
     }
   }
 
+  .fa-bars{
+    margin-right: 80%;
+  }
+
 @media (max-width: 375px){
 
     body{

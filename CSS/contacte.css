@@ -283,6 +283,10 @@ a{
       cursor: pointer;
       margin-left: 5px;
     }
+
+    .fa-bars{
+        margin-left: -50%;
+    }
 }
 
 @media(max-width: 375px){

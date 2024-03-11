@@ -198,6 +198,7 @@ a{
         padding-left: 0;
         margin-top: 0;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     
     header{
@@ -247,6 +248,7 @@ a{
         margin: 0px;
         margin-top: 2;
         overflow-y: hidden;
+        padding-bottom: 0;
       }
     
     hr{
@@ -290,7 +292,7 @@ a{
     
     .disclaimer {
         background-color: black; 
-        position: fixed;
+        position: absolute;
         color: white; 
         padding: 7px; 
         margin-top: 0px; 
@@ -347,7 +349,7 @@ a{
       }
     
     .kabivin{
-        margin-left: -10%;
+        margin-left: 50%;
     }
     
 }

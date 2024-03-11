@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 89%;
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -41,6 +41,41 @@ nav li:hover{
     font-size: 20px;
 }
 
+#mobileMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    z-index: 9999;
+    padding: 20px; 
+    box-sizing: content-box;
+    text-align: left;
+}
+
+#mobileToggleBtn {
+    display: none; 
+}
+
+.fa-bars{
+    display: block;
+    height: 15px;
+    color: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-navbar {
+        display: none;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #mobileToggleBtn {
+        display: block;
+    }
+}
 
 .footer {
     display: block;
@@ -163,11 +198,10 @@ a{
         padding-left: 0;
         margin-top: 0;
         overflow-x: hidden;
-        overflow-y: hidden;
     }
     
     header{
-        width: 100%;
+        width: 90%;
         height: 95px;
         justify-content: space-between;
         align-items: center;
@@ -270,12 +304,13 @@ a{
     .hjo{
         cursor: pointer;
         width: 130%;
-        height: 100%;
+        height: 150%;
     }
     
     .hju{
         cursor: pointer;
         width: 130%;
+        height: 150%;
     }
     
     .hjo:hover{

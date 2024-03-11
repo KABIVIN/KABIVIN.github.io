@@ -10,21 +10,29 @@
 </head>
 <body>
     
-    <header style="background-color: beige; margin-top: 0px;"> <a href="../index.html"><img src="../imagini/Logo Kabivin fundal.png" width="110px" class="lgh"></a><a href="../index.html"><h1 class="kabivin">KABIVIN</h1></a>
-        <nav class="navbar">
+    <header style="background-color: beige; margin-top: 0px;"> 
+        <a href="../index.html"><img src="../imagini/Logo Kabivin fundal.png" width="110px" class="lgh"></a> 
+        <a href="../index.html"><h1 class="kabivin">KABIVIN</h1></a>
+        <nav class="desktop-navbar">
             <ul>
                 <li><a href="../index.html">Acasă</a></li>
-                <li><a href="./about.html">Despre</a></li>
-                <li><a href="./products.html">Produse</a></li>
-                <li><a href="./contacts.html">Contacte</a></li>
-             </ul>
-         </nav> 
-        <main>
-        
-        </main>
-        
-        </header>
-<hr>
+                <li><a href="../Pagini/about.html">Despre</a></li>
+                <li><a href="../Pagini/products.html">Produse</a></li>
+                <li><a href="../Pagini/contacts.html">Contacte</a></li>
+            </ul>
+        </nav> 
+        <button id="mobileToggleBtn"><i class="fa-solid fa-bars fa-2xl"></i></button>
+    </header>
+    <hr>
+    
+    <nav id="mobileMenu">
+        <ul>
+            <li><a href="../index.html">Acasă</a></li><br><br><br><br>
+            <li><a href="../Pagini/about.html">Despre</a></li><br><br><br><br>
+            <li><a href="../Pagini/products.html">Produse</a></li><br><br><br><br>
+            <li><a href="../Pagini/contacts.html">Contacte</a></li>
+        </ul>
+    </nav>
 
 <div class="content">
     <img src="../imagini/cabernet-savignon-reserve.jpg" id="cab-sav">
@@ -69,6 +77,19 @@
         </footer>
   </div>
 
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const mobileToggleBtn = document.getElementById("mobileToggleBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+  
+    mobileToggleBtn.addEventListener("click", function() {
+        if (mobileMenu.style.display === "block") {
+            mobileMenu.style.display = "none";
+        } else {
+            mobileMenu.style.display = "block";
+        }
+    });
+  });  
+  </script>
 </body>
 </html>

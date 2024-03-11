@@ -10,5 +10,18 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); 
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const mobileToggleBtn = document.getElementById("mobileToggleBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  mobileToggleBtn.addEventListener("click", function() {
+      if (mobileMenu.style.display === "block") {
+          mobileMenu.style.display = "none";
+      } else {
+          mobileMenu.style.display = "block";
+      }
+  });
+});  

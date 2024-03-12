@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 111%;
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -25,6 +25,7 @@ header{
     background-color: beige;
     margin-top: 0;
     padding-top: 3%;
+    overflow-x: hidden;
 }
 
 

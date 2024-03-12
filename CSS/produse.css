@@ -198,7 +198,6 @@ a{
         padding-left: 0;
         margin-top: 0;
         overflow-x: hidden;
-        overflow-y: hidden;
     }
     
     header{
@@ -210,6 +209,7 @@ a{
         background-color: beige;
         margin: 0;
         margin-top: 0;
+        overflow-x: hidden;
     }
     
     nav li{
@@ -295,6 +295,7 @@ a{
         position: absolute;
         color: white; 
         padding: 7px; 
+        padding-bottom: 0;
         margin-top: 0px; 
         margin: 0px;
         margin-left: -1%;
@@ -305,13 +306,13 @@ a{
     
     .hjo{
         cursor: pointer;
-        width: 130%;
+        width: 80%;
         height: 150%;
     }
     
     .hju{
         cursor: pointer;
-        width: 130%;
+        width: 80%;
         height: 150%;
     }
     
@@ -326,10 +327,13 @@ a{
     .image-container {
         display: flex;
         justify-content: space-between;
+        display: block;
       }
       
       .image-with-text {
         position: relative;
+        width: 130%;
+        overflow-x: hidden;
       }
       
       .text-overlay {

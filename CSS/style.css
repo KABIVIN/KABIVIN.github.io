@@ -287,14 +287,15 @@ hr{
     }
     
     header{
-        width: 100%;
+        width: 80%;
         height: 95px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px 0%;
+        padding: 0px 0%;
         background-color: beige;
         margin-top: 0;
+        overflow-x: hidden;
     }
     
     nav li{

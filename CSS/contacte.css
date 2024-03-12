@@ -4,6 +4,7 @@ body{
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
@@ -188,6 +189,7 @@ a{
         align-items: center;
         padding: 30px 0%;
         background-color: beige;
+        overflow-x: hidden;
     }
     .logo{
         font-size: 30px;
@@ -278,7 +280,7 @@ a{
     }
 
     .fa-bars{
-        margin-left: -50%;
+        margin-left: -0%;
     }
 }
 

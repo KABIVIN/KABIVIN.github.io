@@ -283,7 +283,7 @@ a{
     }
     
     header{
-        width: 90%;
+        width: 80%;
         height: 75px;
         display: flex;
         justify-content: space-between;
@@ -294,6 +294,7 @@ a{
         margin-top: 0;
         padding-bottom: 5px;
         padding-top: 0px;
+        overflow-x: hidden;
     }
     
     nav li{
@@ -421,7 +422,8 @@ a{
     
     .vn{
         color: orange;
-        text-align: center;
+        text-align: left;
+        margin-right: 5%;
         font-size: 15px;
     }
     
@@ -432,7 +434,7 @@ a{
     }
     
     .descr{
-        text-align: center;
+        text-align: left;
         font-size: 1.8em;
         display: block;
     }
@@ -469,19 +471,19 @@ a{
     }
     
     .FET-NEGR{
-        text-align: center;
+        text-align: left;
         font-size: 2.5em;
         font-family: 'Times New Roman', Times, serif;
     }
     
     .descr1{
-        text-align: center;
+        text-align: left;
         font-size: 1.8em;
         display: block;
     }
     
     .alc1{
-        text-align: right;
+        text-align: center;
         font-size: 1.3em;
         margin-left: 1%;
         margin-right: 1%;

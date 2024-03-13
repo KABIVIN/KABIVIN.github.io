@@ -301,7 +301,7 @@ a{
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
     
     body{
         background-color: #FFFDD0;
@@ -442,7 +442,7 @@ a{
         margin-left: 10px;
         border-radius: 30px;
         margin-top: 10px;
-        width: 60%;
+        width: 200px;
     }
     
     .an2022k{
@@ -486,7 +486,7 @@ a{
         margin-left: 10px;
         border-radius: 30px;
         margin-top: 10px;
-        width: 60%;
+        width: 200px;
     }
     
     .an2022{
@@ -544,4 +544,13 @@ a{
           border-color: black; 
           color: white; 
     } 
+
+    .clrs{
+        border-radius: 30px;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+    }
 }

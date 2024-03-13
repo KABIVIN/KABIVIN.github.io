@@ -664,7 +664,7 @@ a{
     background-color: rgb(233, 230, 230);
 }
 
-@media only screen and (max-width:412px){
+@media only screen and (max-width:768px){
 
     body{
         background-color: #FFFDD0;

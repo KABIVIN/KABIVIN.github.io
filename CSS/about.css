@@ -27,9 +27,8 @@ header{
     margin-top: 0;
     padding-top: 3%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
-
-
 
 nav li{
     display: inline-block;
@@ -48,6 +47,10 @@ nav li:hover{
     text-decoration: none;
     cursor: pointer;
     font-size: 20px;
+}
+
+nav li a.active{
+    color: rgb(255, 0, 0);
 }
 
 #mobileMenu {
@@ -111,6 +114,12 @@ nav li:hover{
 
 .fa-facebook{
     color: darkblue;
+    margin-right: 10px;
+}
+
+.gh{
+    display: flex;
+    justify-content: center;
 }
 
 

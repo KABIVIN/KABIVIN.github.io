@@ -41,6 +41,10 @@ nav li:hover{
     font-size: 20px;
 }
 
+nav li a.active{
+    color: rgb(255, 0, 0);
+}
+
 #mobileMenu {
     display: none;
     position: fixed;
@@ -83,7 +87,7 @@ nav li:hover{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 11.7%;
+    height: 1.7%;
     padding-bottom: 18px;
     background-color: beige;
     color: black;
@@ -119,6 +123,12 @@ a{
 
 .fa-facebook{
     color: darkblue;
+    margin-right: 10px;
+}
+
+.gh{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -336,6 +346,7 @@ a{
         position: relative;
         width: 130%;
         overflow-x: hidden;
+        overflow: hidden;
       }
       
       .text-overlay {
@@ -348,6 +359,7 @@ a{
         padding: 20px;
         text-align: center;
         width: 90%;
+        overflow-x: hidden;
       }
       
       .text-overlay h2 {

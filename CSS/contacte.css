@@ -50,6 +50,10 @@ nav li:hover{
     font-size: 20px;
 }
 
+nav li a.active{
+    color: rgb(255, 0, 0);
+}
+
 #mobileMenu {
     display: none;
     position: fixed;
@@ -117,6 +121,7 @@ a{
 
 .fa-facebook{
     color: darkblue;
+    margin-right: 10px;
 }
 
 
@@ -154,8 +159,25 @@ a{
 }
 
 .con{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
+    margin-left: 2%;
+}
+
+#hy{
+    text-align: center;
+    margin-top: 0%;
+}
+
+.gh{
+    display: flex;
+    justify-content: center;
+}
+
+#yh{
+    text-align: right;
+    margin-right: 3%;
+    margin-top: -6%;
 }
 
 .kabivin{

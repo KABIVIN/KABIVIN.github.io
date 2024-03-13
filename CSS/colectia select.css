@@ -40,6 +40,14 @@ nav li:hover{
     font-size: 20px;
 }
 
+nav li.active{
+    color: rgb(255, 0, 0);
+}
+
+nav li a.active{
+    color: rgb(255, 0, 0);
+}
+
 #mobileMenu {
     display: none;
     position: fixed;
@@ -111,6 +119,12 @@ a{
 
 .fa-facebook{
     color: darkblue;
+    margin-right: 10px;
+}
+
+.gh{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -143,6 +157,28 @@ a{
       border-color: black; 
       color: white; 
 } 
+
+.clrs{
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1270px;
+    font-size: 1.5em;
+}
+
+.clrs:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1270px;
+    font-size: 1.5em;
+}
 
 .disclaimer {
     background-color: black; 

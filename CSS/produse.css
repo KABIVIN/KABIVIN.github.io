@@ -41,10 +41,6 @@ nav li:hover{
     font-size: 20px;
 }
 
-nav li a.active{
-    color: rgb(255, 0, 0);
-}
-
 #mobileMenu {
     display: none;
     position: fixed;
@@ -78,6 +74,10 @@ nav li a.active{
 
     #mobileToggleBtn {
         display: block;
+    }
+
+    nav li a.active{
+        color: rgb(255, 0, 0);
     }
 }
 

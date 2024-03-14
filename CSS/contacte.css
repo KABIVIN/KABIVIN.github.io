@@ -86,6 +86,10 @@ nav li a.active{
     #mobileToggleBtn {
         display: block;
     }
+
+    nav li a.active{
+        color: rgb(255, 0, 0);
+    }
 }
 
 .footer {

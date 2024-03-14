@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         listItem.textContent = `${productName} - MDL ${productPrice.toFixed(2)}`;
 
         const removeButton = document.createElement("button");
-        removeButton.textContent = "Remove";
+        removeButton.textContent = "-";
         removeButton.classList.add("remove-from-cart");
         removeButton.addEventListener("click", function() {
             totalPrice -= productPrice;

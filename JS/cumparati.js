@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let totalPrice = 0;
 
     checkoutButton.addEventListener("click", function() {
-        alert(`Total amount to pay: MDL ${totalPrice.toFixed(2)}`);
+        alert(`Suma totală: MDL ${totalPrice.toFixed(2)}`);
     });
 
     function addToCart(productName, productPrice) {

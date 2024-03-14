@@ -1271,4 +1271,20 @@ a{
         padding-bottom: 0;
         background-color: rgb(233, 230, 230);
     }
+
+    .clrs{
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 180px;
+        font-size: 1.5em;
+    }
+    
+    .clrs:hover{
+        background-color: orangered;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 180px;
+        font-size: 1.5em;
+    }
 }

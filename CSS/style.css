@@ -117,9 +117,6 @@ nav li a.active{
     font-family: "Great Vibes", cursive;
   }
   
- 
-  
-
 .disclaimer {
     background-color: black;
     color: #333; 
@@ -192,7 +189,8 @@ h1 {
   cursor: pointer;
   width: 100%;
   margin-bottom: 0px;
-    margin-top: 5%;
+  margin-top: 5%;
+  font-family: "Jim Nightshade", cursive;
 }
 
 .btyn:hover{

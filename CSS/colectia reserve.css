@@ -292,6 +292,7 @@ a{
     display: flex;
     margin-left: 15px;
     justify-content: flex-end;
+    font-family: "Jim Nightshade", cursive;
     font-size: 1.5em;
 }
 

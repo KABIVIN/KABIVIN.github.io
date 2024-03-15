@@ -380,15 +380,9 @@ tr:hover {
         display: flex;
         justify-content: space-between;
     }
-}
 
-@media(max-width: 375px){
-    
-    body{
-        max-width: 375px;
-    }
-
-    header{
-        width: 10%;
+    .google-maps{
+        display: flex;
+        justify-content: space-around;
     }
 }

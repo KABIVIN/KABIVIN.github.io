@@ -38,7 +38,7 @@ function checkAge() {
 }
 
 function ageVerification() {
-  //var age = prompt("Ai peste 18 ani? Vă rugăm să introduceți vârsta dvs:");
+  var age = prompt("Ai peste 18 ani? Vă rugăm să introduceți vârsta dvs:");
   if (age === null || isNaN(age)) { 
       location.reload();
   } else if (parseInt(age) < 18) { 

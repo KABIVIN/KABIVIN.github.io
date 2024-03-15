@@ -184,7 +184,6 @@
     <br><br>
     </div>
 
-    <button id="scrollBtn" onclick="scrollToTop()">↑</button>
     
     <div class="footer">
         <footer style="background-color: beige;">
@@ -216,33 +215,6 @@
             }
         });
       });  
-
-       // Function to scroll to the top of the page
-       function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-
-        // Show scroll button when scrolling down
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scrollBtn").style.display = "block";
-            } else {
-                document.getElementById("scrollBtn").style.display = "none";
-            }
-        }
-
-        // Prevent scroll button from interfering with anchor links
-        document.addEventListener('click', function(event) {
-            if (event.target.tagName === 'A') {
-                return; // Do nothing if the clicked element is an anchor link
-            }
-            scrollToTop(); // Scroll to top if clicked element is not an anchor link
-        });
-      </script>
+</script>
 </body>
 </html>

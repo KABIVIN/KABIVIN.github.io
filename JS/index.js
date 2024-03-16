@@ -26,16 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });  
 
-function checkAge() {
-  var age = prompt("Ai peste 18 ani? Vă rugăm să introduceți vârsta dvs:");
-  if (age === null || isNaN(age)) {
-      alert("Intrare nevalidă. Vă rugăm mai încercați.");
-  } else if (parseInt(age) <= 18) { 
-      alert("Ne pare rău, trebuie să aveți mai mult de 18 ani pentru a accesa acest site.");
-  } else {
-      alert("Bine ați venit! Aveți voie să accesați acest site web.");
-  }
-}
 
 function ageVerification() {
   var age = prompt("Ai peste 18 ani? Vă rugăm să introduceți vârsta dvs:");

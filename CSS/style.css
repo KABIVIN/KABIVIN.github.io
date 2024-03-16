@@ -118,6 +118,7 @@ nav li a.active{
   
   .text-overlay h2 {
     font-size: 44px;
+    margin-top: 170px;
     margin-bottom: 10px;
     color: black;
     font-family: "Great Vibes", cursive;
@@ -284,16 +285,9 @@ hr{
 
 @media screen and (max-width: 768px) {
 
-    *{
-        margin: 0px;
-        padding: 0;
-        padding-bottom: 80px;
-        box-sizing: border-box;
-    }
-    
     body {
         position: relative; 
-        padding-bottom: 400px;
+        padding-bottom: 0px;
         justify-content: center;
         align-items: center;
         background-color: burlywood;
@@ -342,7 +336,7 @@ hr{
         bottom: 0;
         border: 1px solid orangered;
         width: 100%;
-        padding: 5px 5;
+        padding: 5px 5px;
         padding-bottom: 0;
         background-color: beige;
         text-align: center;
@@ -377,7 +371,7 @@ hr{
     .disclaimer {
         background-color: black;
         color: #333; 
-        padding: 9px; 
+        padding: 12px; 
         margin-top: 0px;
         position: absolute;
         width: 100%;

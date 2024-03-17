@@ -118,8 +118,9 @@ nav li a.active{
   
   .text-overlay h2 {
     font-size: 44px;
-    margin-top: 170px;
+    margin-top: 200px;
     margin-bottom: 10px;
+    display: block;
     color: black;
     font-family: "Great Vibes", cursive;
   }
